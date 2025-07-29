@@ -87,6 +87,9 @@ const addClassCodeToStudents = (students, classcode) => {
   let mapped = students.map((student) => {
     return {
       name: student.name,
+      age: student.age,
+      gender: student.gender,
+      balance: student.balance,
       classcode,
     };
   });
